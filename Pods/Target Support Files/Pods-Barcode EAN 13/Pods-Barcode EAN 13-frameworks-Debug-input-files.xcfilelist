@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-Barcode EAN 13/Pods-Barcode EAN 13-frameworks.sh
+${BUILT_PRODUCTS_DIR}/EAN13BarcodeGenerator/EAN13BarcodeGenerator.framework
+${BUILT_PRODUCTS_DIR}/SwiftGifOrigin/SwiftGifOrigin.framework

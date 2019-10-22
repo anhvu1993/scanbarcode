@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1AFA9C9B480C28ABC5E26F4 /* Pods_Barcode_EAN_13.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B97474E0547BB405D2301D5 /* Pods_Barcode_EAN_13.framework */; };
+		F61F4C7E22E0051800E4B0C1 /* BarcoceScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61F4C7D22E0051800E4B0C1 /* BarcoceScanner.swift */; };
+		F61F4C8422E0148500E4B0C1 /* BarcodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61F4C8322E0148500E4B0C1 /* BarcodeScannerViewController.swift */; };
+		F63FA49C22DEDE5300E4C972 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63FA49B22DEDE5300E4C972 /* AppDelegate.swift */; };
+		F63FA49E22DEDE5300E4C972 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63FA49D22DEDE5300E4C972 /* ViewController.swift */; };
+		F63FA4A122DEDE5300E4C972 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63FA49F22DEDE5300E4C972 /* Main.storyboard */; };
+		F63FA4A322DEDE5500E4C972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F63FA4A222DEDE5500E4C972 /* Assets.xcassets */; };
+		F63FA4A622DEDE5500E4C972 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63FA4A422DEDE5500E4C972 /* LaunchScreen.storyboard */; };
+		F63FA4AE22DEFE7000E4C972 /* DialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63FA4AD22DEFE7000E4C972 /* DialogViewController.swift */; };
+		F63FA4B022DF238200E4C972 /* DialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63FA4AF22DF238200E4C972 /* DialogView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B97474E0547BB405D2301D5 /* Pods_Barcode_EAN_13.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Barcode_EAN_13.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DCC0E8201A46A2253A0CCD1 /* Pods-Barcode EAN 13.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barcode EAN 13.debug.xcconfig"; path = "Target Support Files/Pods-Barcode EAN 13/Pods-Barcode EAN 13.debug.xcconfig"; sourceTree = "<group>"; };
+		F61F4C7D22E0051800E4B0C1 /* BarcoceScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcoceScanner.swift; sourceTree = "<group>"; };
+		F61F4C8322E0148500E4B0C1 /* BarcodeScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerViewController.swift; sourceTree = "<group>"; };
+		F63FA49822DEDE5300E4C972 /* Barcode EAN 13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Barcode EAN 13.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F63FA49B22DEDE5300E4C972 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F63FA49D22DEDE5300E4C972 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F63FA4A022DEDE5300E4C972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F63FA4A222DEDE5500E4C972 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F63FA4A522DEDE5500E4C972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F63FA4A722DEDE5500E4C972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F63FA4AD22DEFE7000E4C972 /* DialogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogViewController.swift; sourceTree = "<group>"; };
+		F63FA4AF22DF238200E4C972 /* DialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogView.swift; sourceTree = "<group>"; };
+		F96699D8BD4DDCA5DD0F9DB2 /* Pods-Barcode EAN 13.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barcode EAN 13.release.xcconfig"; path = "Target Support Files/Pods-Barcode EAN 13/Pods-Barcode EAN 13.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F63FA49522DEDE5300E4C972 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1AFA9C9B480C28ABC5E26F4 /* Pods_Barcode_EAN_13.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45B25117EB70D058011D51A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DCC0E8201A46A2253A0CCD1 /* Pods-Barcode EAN 13.debug.xcconfig */,
+				F96699D8BD4DDCA5DD0F9DB2 /* Pods-Barcode EAN 13.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7E115973241B74CADA55347B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B97474E0547BB405D2301D5 /* Pods_Barcode_EAN_13.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F63FA48F22DEDE5300E4C972 = {
+			isa = PBXGroup;
+			children = (
+				F63FA49A22DEDE5300E4C972 /* Barcode EAN 13 */,
+				F63FA49922DEDE5300E4C972 /* Products */,
+				45B25117EB70D058011D51A3 /* Pods */,
+				7E115973241B74CADA55347B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F63FA49922DEDE5300E4C972 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F63FA49822DEDE5300E4C972 /* Barcode EAN 13.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F63FA49A22DEDE5300E4C972 /* Barcode EAN 13 */ = {
+			isa = PBXGroup;
+			children = (
+				F6AC5E0722E14ED8005649AA /* Dialog */,
+				F6AC5E0822E14EFB005649AA /* barcodescanner */,
+				F6AC5E0A22E15FCC005649AA /* zxing */,
+				F63FA49F22DEDE5300E4C972 /* Main.storyboard */,
+				F63FA4A222DEDE5500E4C972 /* Assets.xcassets */,
+				F63FA4A422DEDE5500E4C972 /* LaunchScreen.storyboard */,
+				F63FA4A722DEDE5500E4C972 /* Info.plist */,
+			);
+			path = "Barcode EAN 13";
+			sourceTree = "<group>";
+		};
+		F6AC5E0722E14ED8005649AA /* Dialog */ = {
+			isa = PBXGroup;
+			children = (
+				F63FA49B22DEDE5300E4C972 /* AppDelegate.swift */,
+				F63FA4AF22DF238200E4C972 /* DialogView.swift */,
+				F63FA4AD22DEFE7000E4C972 /* DialogViewController.swift */,
+			);
+			path = Dialog;
+			sourceTree = "<group>";
+		};
+		F6AC5E0822E14EFB005649AA /* barcodescanner */ = {
+			isa = PBXGroup;
+			children = (
+				F61F4C7D22E0051800E4B0C1 /* BarcoceScanner.swift */,
+				F63FA49D22DEDE5300E4C972 /* ViewController.swift */,
+				F61F4C8322E0148500E4B0C1 /* BarcodeScannerViewController.swift */,
+			);
+			path = barcodescanner;
+			sourceTree = "<group>";
+		};
+		F6AC5E0A22E15FCC005649AA /* zxing */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = zxing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F63FA49722DEDE5300E4C972 /* Barcode EAN 13 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F63FA4AA22DEDE5500E4C972 /* Build configuration list for PBXNativeTarget "Barcode EAN 13" */;
+			buildPhases = (
+				C3AD950136875D4E35F31EB9 /* [CP] Check Pods Manifest.lock */,
+				F63FA49422DEDE5300E4C972 /* Sources */,
+				F63FA49522DEDE5300E4C972 /* Frameworks */,
+				F63FA49622DEDE5300E4C972 /* Resources */,
+				D578D0B033DB1999C83DA566 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Barcode EAN 13";
+			productName = "Barcode EAN 13";
+			productReference = F63FA49822DEDE5300E4C972 /* Barcode EAN 13.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F63FA49022DEDE5300E4C972 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Nguyen khac vu";
+				TargetAttributes = {
+					F63FA49722DEDE5300E4C972 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = F63FA49322DEDE5300E4C972 /* Build configuration list for PBXProject "Barcode EAN 13" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F63FA48F22DEDE5300E4C972;
+			productRefGroup = F63FA49922DEDE5300E4C972 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F63FA49722DEDE5300E4C972 /* Barcode EAN 13 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F63FA49622DEDE5300E4C972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63FA4A622DEDE5500E4C972 /* LaunchScreen.storyboard in Resources */,
+				F63FA4A322DEDE5500E4C972 /* Assets.xcassets in Resources */,
+				F63FA4A122DEDE5300E4C972 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C3AD950136875D4E35F31EB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Barcode EAN 13-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D578D0B033DB1999C83DA566 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Barcode EAN 13/Pods-Barcode EAN 13-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Barcode EAN 13/Pods-Barcode EAN 13-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Barcode EAN 13/Pods-Barcode EAN 13-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F63FA49422DEDE5300E4C972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63FA49E22DEDE5300E4C972 /* ViewController.swift in Sources */,
+				F63FA49C22DEDE5300E4C972 /* AppDelegate.swift in Sources */,
+				F61F4C8422E0148500E4B0C1 /* BarcodeScannerViewController.swift in Sources */,
+				F63FA4B022DF238200E4C972 /* DialogView.swift in Sources */,
+				F63FA4AE22DEFE7000E4C972 /* DialogViewController.swift in Sources */,
+				F61F4C7E22E0051800E4B0C1 /* BarcoceScanner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F63FA49F22DEDE5300E4C972 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F63FA4A022DEDE5300E4C972 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F63FA4A422DEDE5500E4C972 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F63FA4A522DEDE5500E4C972 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F63FA4A822DEDE5500E4C972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F63FA4A922DEDE5500E4C972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F63FA4AB22DEDE5500E4C972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DCC0E8201A46A2253A0CCD1 /* Pods-Barcode EAN 13.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Barcode EAN 13/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "anhvu.Barcode-EAN-13";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F63FA4AC22DEDE5500E4C972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F96699D8BD4DDCA5DD0F9DB2 /* Pods-Barcode EAN 13.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Barcode EAN 13/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "anhvu.Barcode-EAN-13";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F63FA49322DEDE5300E4C972 /* Build configuration list for PBXProject "Barcode EAN 13" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63FA4A822DEDE5500E4C972 /* Debug */,
+				F63FA4A922DEDE5500E4C972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F63FA4AA22DEDE5500E4C972 /* Build configuration list for PBXNativeTarget "Barcode EAN 13" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63FA4AB22DEDE5500E4C972 /* Debug */,
+				F63FA4AC22DEDE5500E4C972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F63FA49022DEDE5300E4C972 /* Project object */;
+}

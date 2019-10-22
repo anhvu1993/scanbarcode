@@ -1,0 +1,802 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0141A95DB1F647899CC5D4DB824C065C /* SwiftGifOrigin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB2CB78B2A7678065436A29A8401C4E /* SwiftGifOrigin-dummy.m */; };
+		0706BF150EB5B54ED8B5073BCCC28C65 /* BarCodeEAN13.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D50D4F642B6ABECC5C45B715A2190D /* BarCodeEAN13.m */; };
+		21D56583C0C898874352CBC7ECAA5362 /* BarCodeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C423110A3CD08FDC6C0F0E32FFAB37B /* BarCodeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		224BAD87E92E0520DBB7D12E01998F0A /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD057A357E381E7A9EDC57760286CE7 /* UIImage+Gif.swift */; };
+		30024FCAED76B86BF629CA04F8D7B147 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		3F065A9B20E3C03D40C1D91E33165966 /* Pods-Barcode EAN 13-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 192D69B24A72CFCA150483CF29C7C642 /* Pods-Barcode EAN 13-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C993303F14D84FE824E89295E029F86 /* EAN13BarcodeGenerator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF34C4FDBB5A4A1F4450A346B055281F /* EAN13BarcodeGenerator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72154522164CE030DEA57B0CE7D95043 /* EAN13BarcodeGenerator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C0E24D377C430C391DD3790A28140B /* EAN13BarcodeGenerator-dummy.m */; };
+		8991C75CE8321B02706767B01D29890A /* SwiftGifOrigin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EE08C7AFC4840ADCA76BC904BB934ED /* SwiftGifOrigin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9812BEE1D2205B20A44C3B9CF343BD42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		ADF75520B482378B17E1E70AF80E3E27 /* BarCodeEAN13.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C1EF689546718A771970F921B8690ED /* BarCodeEAN13.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9450DF9E224448CC0C4FC0A7333F2DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		C79505E187A813C66BC4DFBC6A016B69 /* Pods-Barcode EAN 13-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E28C92BEF417D40D4D97F34B3418FC5F /* Pods-Barcode EAN 13-dummy.m */; };
+		C9E3E1BED332170FC1FDD12950536494 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		D7C2F7BC361DA884915906EEECAA182B /* BarCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FB7E468436CC0E3E9C1EC38DA640A2 /* BarCodeView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C1A4C5ECF1D3E5091E32A4D1E1A917F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7F9119A842E66F127E010A97169E4F4;
+			remoteInfo = SwiftGifOrigin;
+		};
+		E8659C8413562150B8F985F26C580FF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2613EC86931F72687F5899960A36F9EF;
+			remoteInfo = EAN13BarcodeGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03EE699C2C47687BFEF80D1D2A614654 /* SwiftGifOrigin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftGifOrigin-Info.plist"; sourceTree = "<group>"; };
+		09FB7E468436CC0E3E9C1EC38DA640A2 /* BarCodeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BarCodeView.m; path = EAN13BarcodeGenerator/EAN13BarcodeGenerator/Classes/BarCodeView.m; sourceTree = "<group>"; };
+		0F9B2491984F1D31E7F137AD46AC9C08 /* Pods-Barcode EAN 13-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Barcode EAN 13-acknowledgements.plist"; sourceTree = "<group>"; };
+		0FD057A357E381E7A9EDC57760286CE7 /* UIImage+Gif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Gif.swift"; path = "SwiftGifCommon/UIImage+Gif.swift"; sourceTree = "<group>"; };
+		192D69B24A72CFCA150483CF29C7C642 /* Pods-Barcode EAN 13-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Barcode EAN 13-umbrella.h"; sourceTree = "<group>"; };
+		1EE08C7AFC4840ADCA76BC904BB934ED /* SwiftGifOrigin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftGifOrigin-umbrella.h"; sourceTree = "<group>"; };
+		2D85B7913544B91A0A61486E93DC6513 /* SwiftGifOrigin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftGifOrigin.modulemap; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		47F92F8422C90675CDDEC00C1E254B12 /* EAN13BarcodeGenerator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EAN13BarcodeGenerator.xcconfig; sourceTree = "<group>"; };
+		4C423110A3CD08FDC6C0F0E32FFAB37B /* BarCodeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarCodeView.h; path = EAN13BarcodeGenerator/EAN13BarcodeGenerator/Classes/BarCodeView.h; sourceTree = "<group>"; };
+		4EB2CB78B2A7678065436A29A8401C4E /* SwiftGifOrigin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftGifOrigin-dummy.m"; sourceTree = "<group>"; };
+		559ADAB634C086B134EFA9B3148E8337 /* EAN13BarcodeGenerator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EAN13BarcodeGenerator-prefix.pch"; sourceTree = "<group>"; };
+		6C1EF689546718A771970F921B8690ED /* BarCodeEAN13.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarCodeEAN13.h; path = EAN13BarcodeGenerator/EAN13BarcodeGenerator/Classes/BarCodeEAN13.h; sourceTree = "<group>"; };
+		7BCF77E6DCE288FBDF75435D028FDD9F /* EAN13BarcodeGenerator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EAN13BarcodeGenerator.modulemap; sourceTree = "<group>"; };
+		83C0E24D377C430C391DD3790A28140B /* EAN13BarcodeGenerator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EAN13BarcodeGenerator-dummy.m"; sourceTree = "<group>"; };
+		88F5016EC5701E4779CB57654870BBDF /* Pods_Barcode_EAN_13.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Barcode_EAN_13.framework; path = "Pods-Barcode EAN 13.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAE9BF0BB8ACCB416AB1DE308C46325 /* SwiftGifOrigin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftGifOrigin-prefix.pch"; sourceTree = "<group>"; };
+		8E11114EB42D9DA49AD3DCEAD6567E79 /* SwiftGifOrigin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftGifOrigin.framework; path = SwiftGifOrigin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F773B5FC82DCB5774AD183B13939AEF /* Pods-Barcode EAN 13.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Barcode EAN 13.modulemap"; sourceTree = "<group>"; };
+		A6F6DC94F78271D3911CFE931C4F1F2F /* EAN13BarcodeGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EAN13BarcodeGenerator.framework; path = EAN13BarcodeGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE8DADB40387ED3294A1683938B280D /* Pods-Barcode EAN 13.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Barcode EAN 13.debug.xcconfig"; sourceTree = "<group>"; };
+		BF34C4FDBB5A4A1F4450A346B055281F /* EAN13BarcodeGenerator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EAN13BarcodeGenerator-umbrella.h"; sourceTree = "<group>"; };
+		C0875BABF46B295A856299616BD30CD8 /* Pods-Barcode EAN 13-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Barcode EAN 13-frameworks.sh"; sourceTree = "<group>"; };
+		CAC4058A2C73BD018DCC0901603E37AF /* Pods-Barcode EAN 13-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Barcode EAN 13-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CE164906440299F5551BFF868535BD07 /* Pods-Barcode EAN 13-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Barcode EAN 13-Info.plist"; sourceTree = "<group>"; };
+		D14F46F7911270A63315272C8ACC5F24 /* Pods-Barcode EAN 13.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Barcode EAN 13.release.xcconfig"; sourceTree = "<group>"; };
+		D4D50D4F642B6ABECC5C45B715A2190D /* BarCodeEAN13.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BarCodeEAN13.m; path = EAN13BarcodeGenerator/EAN13BarcodeGenerator/Classes/BarCodeEAN13.m; sourceTree = "<group>"; };
+		E28C92BEF417D40D4D97F34B3418FC5F /* Pods-Barcode EAN 13-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Barcode EAN 13-dummy.m"; sourceTree = "<group>"; };
+		ECFF5DE72EEAEFE59606200DE24B2D03 /* EAN13BarcodeGenerator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EAN13BarcodeGenerator-Info.plist"; sourceTree = "<group>"; };
+		F4EDB49E1E5D6F4BF27E80B11ADB371F /* SwiftGifOrigin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftGifOrigin.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8795C34C0527F6A52004038F219D1BE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30024FCAED76B86BF629CA04F8D7B147 /* Foundation.framework in Frameworks */,
+				9812BEE1D2205B20A44C3B9CF343BD42 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ED082A4259743745CD31D5D232264CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9450DF9E224448CC0C4FC0A7333F2DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C844CEE815202DAC5090EA5A54FCA01C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E3E1BED332170FC1FDD12950536494 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01213EDF0FE79A41EE0AFE951C8D2811 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D85B7913544B91A0A61486E93DC6513 /* SwiftGifOrigin.modulemap */,
+				F4EDB49E1E5D6F4BF27E80B11ADB371F /* SwiftGifOrigin.xcconfig */,
+				4EB2CB78B2A7678065436A29A8401C4E /* SwiftGifOrigin-dummy.m */,
+				03EE699C2C47687BFEF80D1D2A614654 /* SwiftGifOrigin-Info.plist */,
+				8CAE9BF0BB8ACCB416AB1DE308C46325 /* SwiftGifOrigin-prefix.pch */,
+				1EE08C7AFC4840ADCA76BC904BB934ED /* SwiftGifOrigin-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftGifOrigin";
+			sourceTree = "<group>";
+		};
+		0148BEA01A281AAF1D5BDB4D88D10E1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCE731D04D3CC90BF35DEB89BE2993B4 /* EAN13BarcodeGenerator */,
+				B3777B4C5173B5BDB5D0B8B93BF7209F /* SwiftGifOrigin */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0A9ED8DAFB940CCC59C21C2E89D5C45E /* Pods-Barcode EAN 13 */ = {
+			isa = PBXGroup;
+			children = (
+				9F773B5FC82DCB5774AD183B13939AEF /* Pods-Barcode EAN 13.modulemap */,
+				CAC4058A2C73BD018DCC0901603E37AF /* Pods-Barcode EAN 13-acknowledgements.markdown */,
+				0F9B2491984F1D31E7F137AD46AC9C08 /* Pods-Barcode EAN 13-acknowledgements.plist */,
+				E28C92BEF417D40D4D97F34B3418FC5F /* Pods-Barcode EAN 13-dummy.m */,
+				C0875BABF46B295A856299616BD30CD8 /* Pods-Barcode EAN 13-frameworks.sh */,
+				CE164906440299F5551BFF868535BD07 /* Pods-Barcode EAN 13-Info.plist */,
+				192D69B24A72CFCA150483CF29C7C642 /* Pods-Barcode EAN 13-umbrella.h */,
+				BAE8DADB40387ED3294A1683938B280D /* Pods-Barcode EAN 13.debug.xcconfig */,
+				D14F46F7911270A63315272C8ACC5F24 /* Pods-Barcode EAN 13.release.xcconfig */,
+			);
+			name = "Pods-Barcode EAN 13";
+			path = "Target Support Files/Pods-Barcode EAN 13";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78A74CC711B80553C4B3B289939443C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6F6DC94F78271D3911CFE931C4F1F2F /* EAN13BarcodeGenerator.framework */,
+				88F5016EC5701E4779CB57654870BBDF /* Pods_Barcode_EAN_13.framework */,
+				8E11114EB42D9DA49AD3DCEAD6567E79 /* SwiftGifOrigin.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E80AAA3ED7878B19B9F71DB74220701 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A9ED8DAFB940CCC59C21C2E89D5C45E /* Pods-Barcode EAN 13 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B3777B4C5173B5BDB5D0B8B93BF7209F /* SwiftGifOrigin */ = {
+			isa = PBXGroup;
+			children = (
+				0FD057A357E381E7A9EDC57760286CE7 /* UIImage+Gif.swift */,
+				01213EDF0FE79A41EE0AFE951C8D2811 /* Support Files */,
+			);
+			name = SwiftGifOrigin;
+			path = SwiftGifOrigin;
+			sourceTree = "<group>";
+		};
+		B880FA96A75C96502FF893EE402AB16E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BCF77E6DCE288FBDF75435D028FDD9F /* EAN13BarcodeGenerator.modulemap */,
+				47F92F8422C90675CDDEC00C1E254B12 /* EAN13BarcodeGenerator.xcconfig */,
+				83C0E24D377C430C391DD3790A28140B /* EAN13BarcodeGenerator-dummy.m */,
+				ECFF5DE72EEAEFE59606200DE24B2D03 /* EAN13BarcodeGenerator-Info.plist */,
+				559ADAB634C086B134EFA9B3148E8337 /* EAN13BarcodeGenerator-prefix.pch */,
+				BF34C4FDBB5A4A1F4450A346B055281F /* EAN13BarcodeGenerator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EAN13BarcodeGenerator";
+			sourceTree = "<group>";
+		};
+		CCE731D04D3CC90BF35DEB89BE2993B4 /* EAN13BarcodeGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				6C1EF689546718A771970F921B8690ED /* BarCodeEAN13.h */,
+				D4D50D4F642B6ABECC5C45B715A2190D /* BarCodeEAN13.m */,
+				4C423110A3CD08FDC6C0F0E32FFAB37B /* BarCodeView.h */,
+				09FB7E468436CC0E3E9C1EC38DA640A2 /* BarCodeView.m */,
+				B880FA96A75C96502FF893EE402AB16E /* Support Files */,
+			);
+			name = EAN13BarcodeGenerator;
+			path = EAN13BarcodeGenerator;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				0148BEA01A281AAF1D5BDB4D88D10E1E /* Pods */,
+				78A74CC711B80553C4B3B289939443C2 /* Products */,
+				7E80AAA3ED7878B19B9F71DB74220701 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		74F9AFFF9CCE4DE2F976DF4D8A93BA90 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF75520B482378B17E1E70AF80E3E27 /* BarCodeEAN13.h in Headers */,
+				21D56583C0C898874352CBC7ECAA5362 /* BarCodeView.h in Headers */,
+				5C993303F14D84FE824E89295E029F86 /* EAN13BarcodeGenerator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7278524B3A27D3083843BAC5EE3EEE8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F065A9B20E3C03D40C1D91E33165966 /* Pods-Barcode EAN 13-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81EFC3392CB1BBF5061F4F7F2B41563 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8991C75CE8321B02706767B01D29890A /* SwiftGifOrigin-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2613EC86931F72687F5899960A36F9EF /* EAN13BarcodeGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B39506D8F7247AF5248D636EF7D9F610 /* Build configuration list for PBXNativeTarget "EAN13BarcodeGenerator" */;
+			buildPhases = (
+				74F9AFFF9CCE4DE2F976DF4D8A93BA90 /* Headers */,
+				B4736883302DEE1CA5B7719EED512D6D /* Sources */,
+				8795C34C0527F6A52004038F219D1BE2 /* Frameworks */,
+				DFCAA2295599FE015BC038D15D0C65B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EAN13BarcodeGenerator;
+			productName = EAN13BarcodeGenerator;
+			productReference = A6F6DC94F78271D3911CFE931C4F1F2F /* EAN13BarcodeGenerator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A7F9119A842E66F127E010A97169E4F4 /* SwiftGifOrigin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99A19CAE5BD75E33445174D268501EC6 /* Build configuration list for PBXNativeTarget "SwiftGifOrigin" */;
+			buildPhases = (
+				E81EFC3392CB1BBF5061F4F7F2B41563 /* Headers */,
+				A8EB3FE901BE9442AF03C2DB361C7B9E /* Sources */,
+				C844CEE815202DAC5090EA5A54FCA01C /* Frameworks */,
+				4BE15D81617252BA65FECC14EA3D8A4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftGifOrigin;
+			productName = SwiftGifOrigin;
+			productReference = 8E11114EB42D9DA49AD3DCEAD6567E79 /* SwiftGifOrigin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF5F11BE9F9F62BC9160ECF235EE584C /* Pods-Barcode EAN 13 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EA5AA1496FED1D2C1A98A13DF9DF095 /* Build configuration list for PBXNativeTarget "Pods-Barcode EAN 13" */;
+			buildPhases = (
+				E7278524B3A27D3083843BAC5EE3EEE8 /* Headers */,
+				372E633BFEF10214CAAC05815E0D1CA0 /* Sources */,
+				9ED082A4259743745CD31D5D232264CC /* Frameworks */,
+				1CA8ACEA44B452AB6929569F85058DEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				568E5FBE3F9F88B90C1CBB5AF206FBBF /* PBXTargetDependency */,
+				490CDC27C76995901A7F1C7E15760C15 /* PBXTargetDependency */,
+			);
+			name = "Pods-Barcode EAN 13";
+			productName = "Pods-Barcode EAN 13";
+			productReference = 88F5016EC5701E4779CB57654870BBDF /* Pods_Barcode_EAN_13.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 78A74CC711B80553C4B3B289939443C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2613EC86931F72687F5899960A36F9EF /* EAN13BarcodeGenerator */,
+				BF5F11BE9F9F62BC9160ECF235EE584C /* Pods-Barcode EAN 13 */,
+				A7F9119A842E66F127E010A97169E4F4 /* SwiftGifOrigin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CA8ACEA44B452AB6929569F85058DEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE15D81617252BA65FECC14EA3D8A4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFCAA2295599FE015BC038D15D0C65B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		372E633BFEF10214CAAC05815E0D1CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C79505E187A813C66BC4DFBC6A016B69 /* Pods-Barcode EAN 13-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8EB3FE901BE9442AF03C2DB361C7B9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0141A95DB1F647899CC5D4DB824C065C /* SwiftGifOrigin-dummy.m in Sources */,
+				224BAD87E92E0520DBB7D12E01998F0A /* UIImage+Gif.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4736883302DEE1CA5B7719EED512D6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0706BF150EB5B54ED8B5073BCCC28C65 /* BarCodeEAN13.m in Sources */,
+				D7C2F7BC361DA884915906EEECAA182B /* BarCodeView.m in Sources */,
+				72154522164CE030DEA57B0CE7D95043 /* EAN13BarcodeGenerator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		490CDC27C76995901A7F1C7E15760C15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftGifOrigin;
+			target = A7F9119A842E66F127E010A97169E4F4 /* SwiftGifOrigin */;
+			targetProxy = 4C1A4C5ECF1D3E5091E32A4D1E1A917F /* PBXContainerItemProxy */;
+		};
+		568E5FBE3F9F88B90C1CBB5AF206FBBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EAN13BarcodeGenerator;
+			target = 2613EC86931F72687F5899960A36F9EF /* EAN13BarcodeGenerator */;
+			targetProxy = E8659C8413562150B8F985F26C580FF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		056D1CE8A192F0767AA9AC3928F85120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4EDB49E1E5D6F4BF27E80B11ADB371F /* SwiftGifOrigin.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin.modulemap";
+				PRODUCT_MODULE_NAME = SwiftGifOrigin;
+				PRODUCT_NAME = SwiftGifOrigin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E19E141EE762C1BAEC214522DA8C782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAE8DADB40387ED3294A1683938B280D /* Pods-Barcode EAN 13.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Barcode EAN 13/Pods-Barcode EAN 13-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Barcode EAN 13/Pods-Barcode EAN 13.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32C2FB3BD9A2402E2347CE50F405010A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		65E8432CA1AC1817F746BE6B5C4F067E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		84458CF5B9056BEEE383B06C0AB35CBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47F92F8422C90675CDDEC00C1E254B12 /* EAN13BarcodeGenerator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EAN13BarcodeGenerator/EAN13BarcodeGenerator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EAN13BarcodeGenerator/EAN13BarcodeGenerator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EAN13BarcodeGenerator/EAN13BarcodeGenerator.modulemap";
+				PRODUCT_MODULE_NAME = EAN13BarcodeGenerator;
+				PRODUCT_NAME = EAN13BarcodeGenerator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF8FB9F355268261C8110E2C3B321514 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47F92F8422C90675CDDEC00C1E254B12 /* EAN13BarcodeGenerator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EAN13BarcodeGenerator/EAN13BarcodeGenerator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EAN13BarcodeGenerator/EAN13BarcodeGenerator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EAN13BarcodeGenerator/EAN13BarcodeGenerator.modulemap";
+				PRODUCT_MODULE_NAME = EAN13BarcodeGenerator;
+				PRODUCT_NAME = EAN13BarcodeGenerator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E0DA2E16CAA140FBDB5CE0BEA534E7D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D14F46F7911270A63315272C8ACC5F24 /* Pods-Barcode EAN 13.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Barcode EAN 13/Pods-Barcode EAN 13-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Barcode EAN 13/Pods-Barcode EAN 13.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F431C0D7BF1187DA9F85C753C7C7D134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4EDB49E1E5D6F4BF27E80B11ADB371F /* SwiftGifOrigin.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin.modulemap";
+				PRODUCT_MODULE_NAME = SwiftGifOrigin;
+				PRODUCT_NAME = SwiftGifOrigin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EA5AA1496FED1D2C1A98A13DF9DF095 /* Build configuration list for PBXNativeTarget "Pods-Barcode EAN 13" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E19E141EE762C1BAEC214522DA8C782 /* Debug */,
+				E0DA2E16CAA140FBDB5CE0BEA534E7D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E8432CA1AC1817F746BE6B5C4F067E /* Debug */,
+				32C2FB3BD9A2402E2347CE50F405010A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99A19CAE5BD75E33445174D268501EC6 /* Build configuration list for PBXNativeTarget "SwiftGifOrigin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056D1CE8A192F0767AA9AC3928F85120 /* Debug */,
+				F431C0D7BF1187DA9F85C753C7C7D134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B39506D8F7247AF5248D636EF7D9F610 /* Build configuration list for PBXNativeTarget "EAN13BarcodeGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84458CF5B9056BEEE383B06C0AB35CBE /* Debug */,
+				CF8FB9F355268261C8110E2C3B321514 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
